@@ -1,0 +1,28 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+}
+
+header, nav, main, aside, footer {
+	border:1px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+aside > a {
+	display: block;
+}
+
+main {
+	width: 60%;
+	float: left;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+footer {
+	clear: both;
+}

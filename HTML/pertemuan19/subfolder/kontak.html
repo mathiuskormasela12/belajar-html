@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sekolah Koding</title>
+  </head>
+  <body>
+
+    <!-- Menu website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+    <div>
+      <h1> Sekolah Koding </h1>
+      <h2> &nbsp;&nbsp;&nbsp;Tutorial online untuk belajar <span>membuat website</span> </h2>
+    </div>
+
+    <form>
+
+      <!-- 
+        Berfungsi untuk mengelompokan form dan 
+        memberi style berupa kotak.
+      -->
+      <fieldset>
+        <!-- 
+          Berfungsi untuk memberi judul atau keterangan 
+          tentang fieldset atau tentang input-input 
+          yang ada didalam fieldset 
+        -->
+        <legend>Nama dan Pesan</legend>
+        <label for="nama_user">Nama User</label>
+        <input type="text" placeholder="Nama User" value="Nama User" id="nama_user">
+        <br>
+        <label for="pesan_user">Pesan User</label>
+        <textarea cols="100" rows="7" id="pesan_user">Pesan saya adalah....</textarea>
+        <br>
+        <label>Hobi</label>
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <legend>Pilihan Data</legend>
+        <input type="checkbox" name="hobi_user" value="0"> Menggambar <br>
+        <input type="checkbox" name="hobi_user" value="1" checked> Menulis    <br>
+        <input type="checkbox" name="hobi_user" value="2"> Bernyanyi  <br>
+        <br>
+        <label>Jenis Kelamin</label>
+        <br>
+        <input type="radio" name="gender" value="0" checked> Laki-Laki <br>
+        <input type="radio" name="gender" value="1"> Perempuan <br>
+        <label>Pelajaran</label>
+        <select>
+          <optgroup label="Frontend">
+            <option value="html">HTML</option>
+            <option value="css" selected>CSS</option>
+          </optgroup>
+
+          <optgroup label="Backend">
+            <option value="php">PHP</option>
+            <option value="db">Database</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <br>
+      <!-- 
+          Berfungsi untuk memvalidasi 
+          atau mengirim data. attribute value
+          digunakan untuk mengubah text default 
+          dari button, jika kita tidak mengatur value
+          nya maka text default button akan ditampilkan
+          yaitu submit.
+      -->
+      <input type="submit" value="Kirim Data">
+    </form>
+
+    <br><br>
+    <table border="1">
+      <caption>Daftar Murid SekolahKoding</caption>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Kota Asal</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mathius</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Hilman</td>
+          <td>Makassar</td>
+        </tr>
+      </tfoot>
+      
+    </table>
+
+    <ul type="square">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ul>
+
+    <ol type="a">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ol>
+
+    <dl>
+      <dt>Mathius</dt>
+      <dd>User pertama SekolahKoding</dd>
+      <dt>Hilman</dt>
+      <dd>User kedua SekolahKoding</dd>
+    </dl>
+
+    <!--  
+      ======== Belajar Charset, Entities & Symbol Entities ========
+
+      <meta charset="UTF-8"> berfungsi untuk mengatur standar
+      karakter huruf-huruf, angka-angka yang akan kita
+      gunakan adalah standar penulisan UTF-8. 
+
+      Entities & Symbol Entities adalah karakter-karakter
+      atau simbol-simbol yang tidak ada di keyboard kita
+      atau yang sudah di booking oleh HTML. Dengan nya kita
+      dapat menulis simbol-simbol yang sudah di booking 
+      oleh html tanpa browser membaca sebagai kode HTML.
+
+      Rumus Penulisan Entities & Symbol Entities :
+      &kodesimbolnya;
+
+
+    -->
+
+    <p>&copy; SekolahKoding</p>
+
+  </body>
+</html>

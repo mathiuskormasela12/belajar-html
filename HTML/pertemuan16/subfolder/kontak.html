@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sekolah Koding</title>
+  </head>
+  <body>
+
+    <!-- Menu website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+    <div>
+      <h1> Sekolah Koding </h1>
+      <h2> &nbsp;&nbsp;&nbsp;Tutorial online untuk belajar <span>membuat website</span> </h2>
+    </div>
+
+    <form>
+      <!--  
+        tag <label> berfungsi untuk memberi
+        keterangan diluar input mengenai element 
+        inputnya. 
+
+        for = berfungsi untuk memasangkan tag <label> dengan
+              tag <input> dengan memberi nilai yang sama
+              kepada value dari for dan attribute id di tag <input>
+        id = berfungsi untuk sebagai penanda dan akan
+             digunakan dalam CSS dan JS. Biasanya kita akan
+             sering menggunakan nya dalam JS. id memiliki
+             nilai yang unik satu sama lainnya.
+      -->
+      <label for="nama_user">Nama User</label>
+      <input type="text" placeholder="Nama User" value="Nama User" id="nama_user">
+      <br>
+      <label for="pesan_user">Pesan User</label>
+      <textarea cols="100" rows="7" id="pesan_user">Pesan saya adalah....</textarea>
+    </form>
+
+    <br><br>
+    <table border="1">
+      <caption>Daftar Murid SekolahKoding</caption>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Kota Asal</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mathius</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Hilman</td>
+          <td>Makassar</td>
+        </tr>
+      </tfoot>
+      
+    </table>
+
+    <ul type="square">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ul>
+
+    <ol type="a">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ol>
+
+    <dl>
+      <dt>Mathius</dt>
+      <dd>User pertama SekolahKoding</dd>
+      <dt>Hilman</dt>
+      <dd>User kedua SekolahKoding</dd>
+    </dl>
+
+    <!--  
+      ======== Belajar Charset, Entities & Symbol Entities ========
+
+      <meta charset="UTF-8"> berfungsi untuk mengatur standar
+      karakter huruf-huruf, angka-angka yang akan kita
+      gunakan adalah standar penulisan UTF-8. 
+
+      Entities & Symbol Entities adalah karakter-karakter
+      atau simbol-simbol yang tidak ada di keyboard kita
+      atau yang sudah di booking oleh HTML. Dengan nya kita
+      dapat menulis simbol-simbol yang sudah di booking 
+      oleh html tanpa browser membaca sebagai kode HTML.
+
+      Rumus Penulisan Entities & Symbol Entities :
+      &kodesimbolnya;
+
+
+    -->
+
+    <p>&copy; SekolahKoding</p>
+
+  </body>
+</html>

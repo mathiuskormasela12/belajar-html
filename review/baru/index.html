@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Review HTML</title>
+	</head>
+	<body>
+		<p>Hello World</p>
+
+		<table border="1" cellpadding="0" cellspacing="0">
+			<caption>Hello</caption>
+			<thead>
+				<tr>
+					<th>Nama</th>
+					<th>Kelas</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Mathius</td>
+					<td>XII RPL</td>
+				</tr>
+			</tbody>
+
+			<tfoot>
+				<tr>
+					<td>Emii</td>
+					<td>VII</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<ul type="square">
+			<li>Vue Js</li>
+			<li>Express Js</li>
+		</ul>
+
+		<ol type="I">
+			<li>Vue Js</li>
+			<li>Express Js</li>
+		</ol>
+
+		<dl>
+			<dt>Frontend</dt>
+			<dd>Vue JS</dd>
+			<dt>Backend</dt>
+			<dd>Express Js</dd>
+		</dl>
+
+		<form>
+
+			<fieldset>
+				<legend>Form Daftar</legend>
+				<label for="username">Username</label>
+				<input type="text" placeholder="Username disini..." id="username">
+				<label for="password">Password</label>
+				<input type="password" placeholder="Password disini..." id="password">
+				<label for="msg">Message</label>
+				<textarea cols="100" rows="10" placeholder="Pesan" id="msg">wkwkw</textarea>
+				<label for="hobi1">
+					<input type="checkbox" id="hobi1" name="hobi">
+					Vue JS
+				</label>
+				<label for="hobi2">
+					<input type="checkbox" id="hobi2" name="hobi" checked>
+					Node JS
+				</label>
+
+				<label for="framework1">
+					<input type="radio" id="framework1" name="backend" checked>
+					Express JS
+				</label>
+				<label for="framework2">
+					<input type="radio" id="framework2" name="backend">
+					Sails JS
+				</label>
+
+				<input type="search" placeholder="Cari Framework" list="frameworks">
+				<datalist id="frameworks">
+					<option value="vue js">Vue JS</option>
+					<option value="react js">React JS</option>
+				</datalist>
+
+				<select>
+					<optgroup label="Frontend Frameworks">
+						<option value="vue js">Vue JS</option>
+						<option value="react js">React JS</option>
+					</optgroup>
+					<optgroup label="Backend Frameworks">
+						<option value="express js">Express JS</option>
+						<option value="adonis js" selected>Adonis JS</option>
+					</optgroup>
+				</select>
+				<input type="submit" value="send">
+			</fieldset>
+		</form>
+
+		<p>&copy; 2020</p>
+	</body>
+</html>

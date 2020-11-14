@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Belajar HTML5</title>
+    <style>
+
+      body {
+        font-family:Verdana, sans-serif;
+        font-size: 12px;
+      }
+
+      header, nav, aside, main, footer {
+        border:1px solid black;
+        padding:5px;
+        margin: 5px;
+      }
+
+      main {
+        float:left;
+        width: 60%;
+      }
+
+      aside {
+        width: 30%;
+        float: left;
+      }
+
+      footer {
+        clear: both;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Belajar Programming</h1>
+      <h2>bersama sekolah koding</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Profil
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            kontak
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+
+        <!--  
+          Berfungsi untuk menulis caption
+          atau informasi mengenai gambar yang 
+          ditampilkan. tag <figure> di dalamnya
+          harus terdapat tag <img> dan tag
+          <figcaption> yang merupakan tempat
+          caption-nya.
+        -->
+        <figure>
+          <img src="meja.jpg" alt="Gambar Meja" width="200" height="200">
+          <figcaption>
+            Meja dari admin Sekolah Koding 2020
+            <a href="https://sekolahkoding.com">website sekolahkoding</a>
+          </figcaption>
+        </figure>
+
+        <h1>Daftar Pelajaran</h1>
+        <section>
+          <h2>HTML</h2>
+          <p>membuat struktur website dengan html</p>
+        </section>
+
+        <section>
+          <h2>CSS</h2>
+          <p>menghias website dengan css</p>
+        </section>
+
+        <section>
+          <h2>Javascript</h2>
+          <p>membuat website lebih interaktif dengan javascript</p>
+        </section>
+      </article>
+    </main>
+
+    <aside>
+      <a href="#">Intro HTML</a><br>
+      <a href="#">Mulai belajar website</a><br>
+      <a href="#">Berguru sampai negeri koding</a>
+    </aside>
+
+    <footer>
+      <p>&copy; 2020 Sekolah Koding</p>
+    </footer>
+
+  </body>
+</html>

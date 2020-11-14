@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sekolah Koding</title>
+  </head>
+  <body>
+
+    <!-- Menu website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+    <div>
+      <h1> Sekolah Koding </h1>
+      <h2> &nbsp;&nbsp;&nbsp;Tutorial online untuk belajar <span>membuat website</span> </h2>
+    </div>
+
+    <!-- 
+      ======== Belajar Membuat Form ========
+
+      Untuk membuat form dalam HTML kita
+      harus menggunakan tag <form> dan
+      input-input serta button-button
+      harus berada dalam tag <form>
+
+      Kita Belajar :
+      1. tag <input> = berfungsi untuk menginputkan short text (nama, usia dll)
+      2. tag <textarea> = berfungsi untuk menginputkan long text (address, komentar, pesan dll)
+    -->
+    <form>
+      <!--  
+        type = berfungsi untuk memberikan tipe dari inputnya 
+        placeholder = berfungsi untuk memberikan keterangan yang berupa background text
+        value = untuk menulis nilai dari input
+      -->
+      <input type="text" placeholder="Nama User" value="Nama User">
+      <!--  
+        cols = jumlah kolom dari input atau lebarnya
+        rows = jumlah baris dari input atau tingginya
+      -->
+      <textarea cols="100" rows="7">Pesan saya adalah....</textarea>
+    </form>
+
+    <table border="1">
+      <caption>Daftar Murid SekolahKoding</caption>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Kota Asal</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mathius</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Hilman</td>
+          <td>Makassar</td>
+        </tr>
+      </tfoot>
+      
+    </table>
+
+    <ul type="square">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ul>
+
+    <ol type="a">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ol>
+
+    <dl>
+      <dt>Mathius</dt>
+      <dd>User pertama SekolahKoding</dd>
+      <dt>Hilman</dt>
+      <dd>User kedua SekolahKoding</dd>
+    </dl>
+
+    <!--  
+      ======== Belajar Charset, Entities & Symbol Entities ========
+
+      <meta charset="UTF-8"> berfungsi untuk mengatur standar
+      karakter huruf-huruf, angka-angka yang akan kita
+      gunakan adalah standar penulisan UTF-8. 
+
+      Entities & Symbol Entities adalah karakter-karakter
+      atau simbol-simbol yang tidak ada di keyboard kita
+      atau yang sudah di booking oleh HTML. Dengan nya kita
+      dapat menulis simbol-simbol yang sudah di booking 
+      oleh html tanpa browser membaca sebagai kode HTML.
+
+      Rumus Penulisan Entities & Symbol Entities :
+      &kodesimbolnya;
+
+
+    -->
+
+    <p>&copy; SekolahKoding</p>
+
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Belajar HTML5</title>
+    <style>
+
+      body {
+        font-family:Verdana, sans-serif;
+        font-size: 12px;
+      }
+
+      header, nav, aside, main, footer {
+        border:1px solid black;
+        padding:5px;
+        margin: 5px;
+      }
+
+      main {
+        float:left;
+        width: 60%;
+      }
+
+      aside {
+        width: 30%;
+        float: left;
+      }
+
+      footer {
+        clear: both;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- 
+      Berfungsi untuk mendefinisikan
+      hal-hal yang penting dalam website 
+      kita. Contohnya seperti judul & sub judul.
+    -->
+    <header>
+      <h1>Belajar Programming</h1>
+      <h2>bersama sekolah koding</h2>
+    </header>
+
+    <!--  
+      Berfungsi untuk mendefinisikan
+      navbar dalam website kita.
+    -->
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Profil
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            kontak
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--  
+      Untuk mendefinisikan
+      main content dari website kita
+    -->
+    <main>
+      <!-- 
+        Berfungsi untuk mendefinisikan
+        bagian-bagian yang merdeka.
+        Maksudnya bagian yang merdeka
+        adalah bagian-bagian yang bisa 
+        juga memiliki header, main, aside
+        dan footer tersendiri
+      -->
+      <article>
+        <h1>Daftar Pelajaran</h1>
+        <!-- 
+          Untuk mendefinisikan seksi-seksi
+          untuk membagi-bagi beberapa konten
+          yang sejenis namun memiliki
+          data yg berbeda-beda.
+        -->
+        <section>
+          <h2>HTML</h2>
+          <p>membuat struktur website dengan html</p>
+        </section>
+
+        <section>
+          <h2>CSS</h2>
+          <p>menghias website dengan css</p>
+        </section>
+
+        <section>
+          <h2>Javascript</h2>
+          <p>membuat website lebih interaktif dengan javascript</p>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+      Untuk mendefinisikan sidebar
+      dari website kita
+    -->
+    <aside>
+      <a href="#">Intro HTML</a><br>
+      <a href="#">Mulai belajar website</a><br>
+      <a href="#">Berguru sampai negeri koding</a>
+    </aside>
+
+    <!-- 
+      Untuk mendefinisikan
+      bagian footer dari website kita.
+    -->
+    <footer>
+      <p>&copy; 2020 Sekolah Koding</p>
+    </footer>
+
+  </body>
+</html>

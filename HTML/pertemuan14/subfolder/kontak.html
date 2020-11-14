@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  
+      Berfungsi untuk memberi tahu browser bahwa standar
+      karakter yang kita gunakan adalah standar UTF-8.
+      UTF-8 mendukung banyak sekali simbol-simbol.
+      Kalau kita tidak menggunakannya maka akan dikhawatirkan
+      karakter yang kita tulis tidak dapat ditampilkan
+      secara benar oleh browser. Dengan UTF-8 kita juga
+      sudah dapat menampilkan karakter-karakter non 
+      latin seperti huruf, China, Jepang, Arab, Rusia dll.
+    -->
+    <meta charset="UTF-8">
+    <title>Sekolah Koding</title>
+  </head>
+  <body>
+
+    <!-- 
+      ====== Belajar Menghubungkan Dengan Halaman Lain ======
+
+      subfolder/nama_file = untuk masuk kedalam folder dan membuka file nama_file
+      folder/subfolderl/nama_file = untuk masuk kedalam direktori folder dan masuk lagi
+                                    kedalam direktori subfolder lalu membuka file nama_file
+      ../ = untuk mundur satu folder
+      ../../ = untuk mundur 2 folder
+      dst
+    -->
+
+    <!-- Menu website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+    <div>
+      <h1> Sekolah Koding </h1>
+      <h2> &nbsp;&nbsp;&nbsp;Tutorial online untuk belajar <span>membuat website</span> </h2>
+    </div>
+
+    <table border="1">
+      <caption>Daftar Murid SekolahKoding</caption>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Kota Asal</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mathius</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Hilman</td>
+          <td>Makassar</td>
+        </tr>
+      </tfoot>
+      
+    </table>
+
+    <ul type="square">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ul>
+
+    <ol type="a">
+      <li>Mathius</li>
+      <li>Hilman</li>
+    </ol>
+
+    <dl>
+      <dt>Mathius</dt>
+      <dd>User pertama SekolahKoding</dd>
+      <dt>Hilman</dt>
+      <dd>User kedua SekolahKoding</dd>
+    </dl>
+
+    <!--  
+      ======== Belajar Charset, Entities & Symbol Entities ========
+
+      <meta charset="UTF-8"> berfungsi untuk mengatur standar
+      karakter huruf-huruf, angka-angka yang akan kita
+      gunakan adalah standar penulisan UTF-8. 
+
+      Entities & Symbol Entities adalah karakter-karakter
+      atau simbol-simbol yang tidak ada di keyboard kita
+      atau yang sudah di booking oleh HTML. Dengan nya kita
+      dapat menulis simbol-simbol yang sudah di booking 
+      oleh html tanpa browser membaca sebagai kode HTML.
+
+      Rumus Penulisan Entities & Symbol Entities :
+      &kodesimbolnya;
+
+
+    -->
+
+    <p>&copy; SekolahKoding</p>
+
+  </body>
+</html>
